@@ -1,0 +1,21 @@
+$font-famyly1: "Exo 2", sans-serif;
+$font-famyly2: "Exo", sans-serif;
+$font-famyly3: "Inter", sans-serif;
+
+$bg-color: rgb(255, 255, 255);
+$primary-color: rgb(83, 181, 26);
+$secondary-color: rgb(63, 19, 94);
+
+@mixin underline-title() {
+  color: #484444;
+  font-family: $font-famyly2;
+  font-size: 35px;
+  font-weight: 700;
+
+  text-decoration: underline;
+  text-decoration-color: $primary-color;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 7px;
+
+  margin-bottom: 30px;
+}

@@ -1,0 +1,132 @@
+@media (max-width: 1537px) {
+  .column-slider {
+    width: 55% !important;
+  }
+  .img-testimonials > img {
+    width: 500px !important;
+  }
+}
+@media (max-width: 1188px) {
+  .bg {
+    display: none;
+  }
+  #hero-section {
+    background: linear-gradient(
+      90deg,
+      rgba(119, 40, 175, 1) 1%,
+      rgba(63, 19, 94, 1) 100%
+    ) !important;
+    .hero-content {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .video-row {
+        width: 100% !important;
+        .portfoil-section {
+          margin-top: 30px !important;
+          margin-bottom: 30px;
+          .content-column {
+            h2 {
+              color: white !important;
+            }
+            .info {
+              h3,
+              p {
+                color: white !important;
+              }
+              .social-icons {
+                width: 94px;
+                svg > path {
+                  fill: white;
+                }
+              }
+            }
+          }
+        }
+      }
+      .form-row {
+        width: 100% !important;
+        .form {
+          margin-left: 0 !important;
+        }
+      }
+    }
+  }
+  #benefits {
+    padding: 60px 0;
+    .boxes {
+      justify-content: space-around;
+
+      margin-top: 40px;
+      .box {
+        margin: 20px;
+      }
+    }
+  }
+  .column-slider {
+    width: 100% !important;
+    .slider {
+      align-items: flex-end !important;
+      .slider-buttons {
+        margin-right: 60px;
+      }
+    }
+  }
+  #testimonials {
+    padding: 60px 0;
+    & > div {
+      flex-direction: column;
+    }
+  }
+  #testimonials .column-image {
+    width: 100% !important;
+    .img-testimonials {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      img {
+        width: 70% !important;
+      }
+    }
+  }
+}
+@media (max-width: 616px) {
+  #hero-section .picture-column {
+    margin-right: 30px !important;
+  }
+}
+@media (max-width: 492px) {
+  #hero-section {
+    .share-video {
+      flex-direction: column;
+      margin-bottom: 40px !important;
+    }
+    .portfoil-section {
+      width: 100% !important;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+    }
+    .content-column {
+      margin-top: 30px;
+    }
+  }
+  #benefits {
+    h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+  }
+  #testimonials {
+    h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+  }
+}
