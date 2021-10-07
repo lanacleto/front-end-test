@@ -3,7 +3,6 @@
 
 Este é um projeto no qual tentei usar o minímo possivel de frameworks/libs externas. Um exemplo, é o slider que foi usado, no qual tentei fazer na mão, usando parte de meus conhecimentos em JavaScript.
 
-***
 ## Tecnologias usadas
 
 - HTML
@@ -12,9 +11,7 @@ Este é um projeto no qual tentei usar o minímo possivel de frameworks/libs ext
 - SCSS
 - Stripo(Para auxiliar na criação do e-mail)
 
-***
 ## Autor
 #### Luiz Anacleto:
 - Linkedin: [Luiz Anacleto](https://www.linkedin.com/in/luiz-anacleto/).
 - Github: [@lanacleto](https://www.linkedin.com/in/luiz-anacleto/).
-- Instagram: [@luiz_anacletoo](https://www.instagram.com/luiz_anacletoo/).
