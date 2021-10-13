@@ -78,6 +78,9 @@
     & > div {
       flex-direction: column;
     }
+    .column-slider .slider .testimonials-slider .testimonial > p {
+      width: 100%;
+    }
   }
   #testimonials .column-image {
     width: 100% !important;

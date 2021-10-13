@@ -715,6 +715,7 @@ header {
 }
 
 #testimonials .column-slider .slider .testimonials-slider .testimonial > p {
+  width: 80%;
   color: #3d3d3d;
   font-size: 26px;
   font-weight: 400;
@@ -916,6 +917,9 @@ footer .footer-content .social-icons {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  #testimonials .column-slider .slider .testimonials-slider .testimonial > p {
+    width: 100%;
   }
   #testimonials .column-image {
     width: 100% !important;
