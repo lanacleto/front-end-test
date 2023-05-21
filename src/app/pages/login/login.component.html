@@ -1,0 +1,14 @@
+<div class="login uk-background-default">
+  <app-input inputType="text" placeholder="{{ translations[language]['EMAIL_INPUT'] }}" (inputValueChange)="verifyMail($event)"></app-input>
+  <div class="uk-margin-bottom uk-margin-top">
+    <app-input inputType="text" placeholder="{{ translations[language]['PASSWORD_INPUT'] }}" (inputValueChange)="verifyPass($event)"></app-input>
+  </div>
+  <div class="uk-alert-danger uk-margin-bottom" uk-alert *ngIf="verifyError">
+    <a class="uk-alert-close" uk-close></a>
+    <p>{{ verifyError }}</p>
+  </div>
+  <div class="login__login-options">
+    <app-button inputType="neutral" (onClick)="signUp()">{{ translations[language]['SIGN_UP'] }}</app-button>
+    <app-button inputType="success" (onClick)="login()">{{ translations[language]['LOGIN'] }}</app-button>
+  </div>
+</div>

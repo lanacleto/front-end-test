@@ -1,0 +1,17 @@
+:host {
+  width: 100%;
+  height: calc(100vh - 35px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 300px;
+  border-radius: 10px;
+  padding: 40px 32px;
+  &__login-options {
+    display: flex;
+    justify-content: space-between;
+  }
+}

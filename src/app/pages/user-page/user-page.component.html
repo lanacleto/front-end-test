@@ -1,0 +1,25 @@
+<div class="user-page">
+    <div class="user-inputs uk-background-default">
+        <div class="uk-margin-small-bottom">
+            <app-input inputType="text" placeholder="" label="E-mail" [(inputValue)]="user.email"></app-input>
+        </div>
+        <app-input inputType="text" placeholder="" label="Nome" [(inputValue)]="user.name"></app-input>
+        <div class="uk-margin-small-bottom uk-margin-small-top">
+            <app-input inputType="text" placeholder="" label="Telefone" [inputValue]="user.phone"></app-input>
+        </div>
+        <app-input inputType="text" placeholder="" label="Data de nascimento" [inputValue]="user.birthDate"></app-input>
+        <div class="uk-margin-small-bottom uk-margin-small-top">
+            <app-input [disabled]="true" inputType="text" placeholder="" label="Data de criação" [inputValue]="user.createdAt"></app-input>
+        </div>
+        <app-input [disabled]="true" inputType="text" placeholder="" label="Data de atualização" [inputValue]="user.updatedAt"></app-input>
+        <div class="uk-alert-danger uk-margin-small-bottom uk-margin-small-top" uk-alert *ngIf="verifyError">
+            <a class="uk-alert-close" uk-close></a>
+            <p>{{ verifyError }}</p>
+        </div>
+        <div class="user-inputs__options uk-margin-top">
+            <app-button inputType="neutral" (onClick)="backButton()">Voltar</app-button>
+            <app-button inputType="danger" (onClick)="deleteUser()"><span uk-icon="trash"></span></app-button>
+            <app-button inputType="success" (onClick)="saveUser()">Salvar</app-button>
+        </div>
+    </div>
+</div>

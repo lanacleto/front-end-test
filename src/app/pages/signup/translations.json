@@ -1,0 +1,31 @@
+{
+  "pt": {
+    "EMAIL_INPUT": "Seu e-mail",
+    "PASSWORD_INPUT": "Sua senha",
+    "FIRST_NAME_INPUT": "Seu primeiro nome",
+    "LAST_NAME_INPUT": "Seu último nome",
+    "BIRTH_DATE": "Sua data de nascimento",
+    "LOGIN": "I have a account",
+    "SIGN_UP": "Criar conta",
+    "MAIL_ERROR": "E-mail inválido",
+    "PASS_ERROR": "Erro na senha. Certifique-se de que tenha pelo menos 6 caracteres e use caracteres numéricos e especiais (!@#$%^&*)",
+    "NOT_EQUAL_PASS_ERROR": "As senhas estão diferentes",
+    "NAME_ERROR": "Nome inválido",
+    "AGE_ERROR": "Idade inválida. Você tem que ter 16 anos para acessar a plataforma."
+    
+  },
+  "en": {
+    "EMAIL_INPUT": "Your mail",
+    "PASSWORD_INPUT": "Your password",
+    "FIRST_NAME_INPUT": "Your first name",
+    "LAST_NAME_INPUT": "Your last name",
+    "BIRTH_DATE": "Your birth date",
+    "LOGIN": "Login",
+    "SIGN_UP": "Create account",
+    "MAIL_ERROR": "Invalid mail",
+    "PASS_ERROR": "Error in password. Make sure it is at least 6 characters and it use number and special characters (!@#$%^&*)",
+    "NOT_EQUAL_PASS_ERROR": "Passwords are different",
+    "NAME_ERROR": "Invalid name",
+    "AGE_ERROR": "Invalid age. You have to be at least 16."
+  }
+}

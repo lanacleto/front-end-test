@@ -1,0 +1,18 @@
+{
+  "pt": {
+    "EMAIL_INPUT": "Seu e-mail",
+    "PASSWORD_INPUT": "Sua senha",
+    "LOGIN": "Acessar",
+    "SIGN_UP": "Cadastre-se",
+    "MAIL_ERROR": "E-mail inválido",
+    "PASS_ERROR": "Erro na senha. Certifique-se de que tenha pelo menos 6 caracteres e use caracteres numéricos e especiais (!@#$%^&*)."
+  },
+  "en": {
+    "EMAIL_INPUT": "Your mail",
+    "PASSWORD_INPUT": "Your password",
+    "LOGIN": "Login",
+    "SIGN_UP": "Sign up",
+    "MAIL_ERROR": "Invalid e-mail",
+    "PASS_ERROR": "Error in password. Make sure it is at least 6 characters and it use number and special characters (!@#$%^&*)."
+  }
+}

@@ -1,0 +1,11 @@
+<div class="pagination">
+    <ul class="uk-pagination uk-flex-center">
+        <li class="uk-flex-middle">
+            <button (click)="changePage(currentPage - 1)"><span uk-pagination-previous></span></button>
+        </li>
+        <span>{{currentPage}} / {{ totalPages }}</span>
+        <li class="uk-flex-middle">
+            <button (click)="changePage(currentPage + 1)"><span uk-pagination-next></span></button>
+        </li>
+    </ul>
+</div>

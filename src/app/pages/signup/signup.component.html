@@ -1,0 +1,23 @@
+<div class="signup uk-background-default">
+  <div class="uk-margin-bottom">
+    <app-input inputType="text" placeholder="{{ translations[language]['FIRST_NAME_INPUT'] }}" (inputValueChange)="verifyName($event)"></app-input>
+  </div>
+  <app-input inputType="text" placeholder="{{ translations[language]['LAST_NAME_INPUT'] }}" (inputValueChange)="verifyName($event)"></app-input>
+  <div class="uk-margin-bottom uk-margin-top">
+    <app-input inputType="date" placeholder="{{ translations[language]['BIRTH_DATE'] }}" (inputValueChange)="verifyBirth($event)"></app-input>
+  </div>
+  <app-input inputType="text" placeholder="{{ translations[language]['EMAIL_INPUT'] }}" (inputValueChange)="verifyMail($event)"></app-input>
+  <div class="uk-margin-bottom uk-margin-top">
+    <app-input inputType="password" placeholder="{{ translations[language]['PASSWORD_INPUT'] }}" (inputValueChange)="verifyPass($event, true)" [(inputValue)]="password"></app-input>
+  </div>
+  <app-input inputType="password" placeholder="{{ translations[language]['PASSWORD_INPUT'] }}" (inputValueChange)="verifyPass($event)" [(inputValue)]="confirmPassword"></app-input>
+  <div class="uk-alert-danger uk-margin-bottom uk-margin-top" uk-alert *ngIf="verifyError">
+    <a class="uk-alert-close" uk-close></a>
+    <p>{{ verifyError }}</p>
+  </div>
+  <div class="signup__signup-options uk-margin-top">
+    <app-button inputType="neutral" (onClick)="login()">{{ translations[language]['LOGIN'] }}</app-button>
+    <app-button inputType="success" (onClick)="signUp()">{{ translations[language]['SIGN_UP'] }}</app-button>
+  </div>
+</div>
+  

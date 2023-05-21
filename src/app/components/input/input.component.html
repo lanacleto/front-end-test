@@ -1,0 +1,6 @@
+<label>{{ label }}</label>
+<input class="input-component" [ngClass]="{'disabled': disabled}" [type]="inputType" [placeholder]="placeholder" (blur)="onInputBlur()" [(ngModel)]="inputValue" [disabled]="disabled">
+<div class="uk-alert-danger" uk-alert *ngIf="error">
+    <a class="uk-alert-close" uk-close></a>
+    <p>{{ error }}</p>
+</div>

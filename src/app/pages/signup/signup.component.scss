@@ -1,0 +1,18 @@
+:host {
+  width: 100%;
+  height: calc(100vh - 35px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.signup {
+  width: 300px;
+  border-radius: 10px;
+  padding: 40px 32px;
+  &__signup-options {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+  
